@@ -66,18 +66,25 @@ function addItem({image, title, price}) {
   document.getElementById('product-list').innerHTML += tagLi.outerHTML
 }
 
-if(!fileName) {
+function applyMock() {
   mock.forEach(item => addItem(item));
+}
+
+if(!fileName) {
+  applyMock()
 }
 
 fetch(`scripts/${fileName}.js`)
   .then(response => {
     if (response.status !== 200) {
-      throw Error(`ERROR\nStatus Code: ${response.status} ${response.statusText}\nFile: ${response.url}`)
+      msg = `ERROR\nStatus Code: ${response.status} ${response.statusText}\nFile: ${response.url}`;
+      alert(msg);
+      throw Error(msg)
     }
     return response.text()
   }).then(async response => {
     eval(response)
   }).catch(r => {
     console.log(r)
+    applyMock();
   })
