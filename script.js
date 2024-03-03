@@ -70,7 +70,7 @@ function applyMock() {
 }
 
 if(!fileName) {
-  applyMock()
+  return applyMock()
 }
 
 fetch(`scripts/${fileName}.js`)
