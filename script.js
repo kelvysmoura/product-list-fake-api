@@ -4,21 +4,6 @@ const fileName = url.searchParams.get('username');
 
 const mock = [
   {
-    image: 'https://source.unsplash.com/random/200x200?product&v' + Math.random(),
-    title: 'Produto Exemplo',
-    price: 1.20 
-  },
-  {
-    image: 'https://source.unsplash.com/random/200x200?product&v=' + Math.random(),
-    title: 'Produto Exemplo',
-    price: 1.20
-  },
-  {
-    image: 'https://source.unsplash.com/random/200x200?product&v' + Math.random(),
-    title: 'Produto Exemplo',
-    price: 1.20
-  },
-  {
     image: 'https://source.unsplash.com/random/200x200?product&v=' + Math.random(),
     title: 'Produto Exemplo',
     price: 1.20
