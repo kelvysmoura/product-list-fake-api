@@ -70,14 +70,16 @@ function applyMock() {
 }
 
 if(!fileName) {
-  return applyMock()
+  applyMock()
 }
 
 fetch(`scripts/${fileName}.js`)
   .then(response => {
     if (response.status !== 200) {
       msg = `ERROR\nStatus Code: ${response.status} ${response.statusText}\nFile: ${response.url}`;
-      alert(msg);
+      if(fileName) {
+        alert(msg);
+      }
       throw Error(msg)
     }
     return response.text()
