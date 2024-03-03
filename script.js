@@ -1,6 +1,5 @@
 
 const url = new URL(document.location.href);
-console.log(url)
 const fileName = url.searchParams.get('username');
 
 const mock = [
