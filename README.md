@@ -1,6 +1,6 @@
 # Exercício Javascript
 
-Ao acessar a URL `https://kelvysmoura.github.io/product-list-fake-api` você verá uma listagem de produtos de exemplos. As informações desses produtos estão vindo de um JSON fixo e sua missão será consumir o endpoint de produtos do Fake API, e renderizar com o JS os produtos retornados da API.
+Ao acessar a URL https://kelvysmoura.github.io/product-list-fake-api você verá uma listagem de produtos de exemplos. As informações desses produtos estão vindo de um JSON fixo e sua missão será consumir o endpoint de produtos do Fake API, e renderizar com o JS os produtos retornados da API.
 
 ### Objetivo
 - Praticar Lógica de programação
@@ -24,10 +24,10 @@ Ao acessar a URL `https://kelvysmoura.github.io/product-list-fake-api` você ver
 6. Essa string com várias tags `<li>` deve ser adicionada ao elemento com ID `product-list`
 7. Fazer git add, commit e push para subir as alterações para o github
 8. Abrir pull request para o repositório original
-9. Após sua Pull Request aprovado e mergeada, acessar a URL `https://kelvysmoura.github.io/product-list-fake-api?username=` e adicionar o seu username depois do sinal de igual.
+9. Após sua Pull Request aprovada e mergeada, acessar a URL https://kelvysmoura.github.io/product-list-fake-api?username= e adicionar o seu username depois do sinal de igual.
 
 ### Tag `<li>`
-Para cada produto retorno da api deve adicionar o um bloco de tag <li> ao elemento que tem como ID `product-list`
+Para cada produto retornado da api você deve adicionar um bloco de tag <li> ao elemento que tem como ID `product-list`
 ```html
 <li>
   <img src="[imagem do produto retornado da api]">
