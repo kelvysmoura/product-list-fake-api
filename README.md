@@ -27,7 +27,7 @@ Ao acessar a URL https://kelvysmoura.github.io/product-list-fake-api você verá
 9. Após sua Pull Request aprovada e mergeada, acessar a URL https://kelvysmoura.github.io/product-list-fake-api?username= e adicionar o seu username depois do sinal de igual.
 
 ### Tag `<li>`
-Para cada produto retornado da api você deve adicionar um bloco de tag <li> ao elemento que tem como ID `product-list`
+Para cada produto retornado da api você deve adicionar um bloco de tag `<li>` ao elemento que tem como ID `product-list`
 ```html
 <li>
   <img src="[imagem do produto retornado da api]">
