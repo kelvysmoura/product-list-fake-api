@@ -40,3 +40,4 @@ Para cada produto retornado da api você deve adicionar um bloco de tag <li> ao 
 ## Restrições
 - O nome da branch e o nome do arquivo JS devem ser os mesmos e deve ser usado o username do seu github em ambos
 - O arquivo index.html pode ser modificado para testar em ambiente localhost mas não pode ir junto no commit.
+- O único arquivo que você vai criar será o script com seu username dentro da pasta scripts
