@@ -1,10 +1,8 @@
 function listProducts() {
 
-    const urlApi = 'https://fakestoreapi.com/products';
     let lista = document.getElementById("product-list");
 
-    console.log("dentro da função");
-    fetch(urlApi)
+    fetch('https://fakestoreapi.com/products')
     .then(response => response.json())
     .then((data) => {
         
