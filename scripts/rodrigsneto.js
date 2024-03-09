@@ -14,7 +14,7 @@ function listProducts() {
                 <li>
                     <img src="${product.image}">
                     <span>${product.title}</span>
-                    <span>${product.price}</span>
+                    <span>$ ${product.price}</span>
                     <a href="#">Ver Produto</a>
                 </li>`;
         });
